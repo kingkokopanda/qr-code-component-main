@@ -22,7 +22,9 @@ body {
 }
 
 .qr-code-image {
- text-align: center;   
+ display: flex;
+ align-items: center;
+ justify-content: center;   
 }
 
 .qr-code-image img {
