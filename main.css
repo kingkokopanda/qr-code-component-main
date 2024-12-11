@@ -7,6 +7,10 @@
 
 body {
     background-color: #d6e2f0;
+        display: flex;
+    justify-content: center;
+    align-items:  center;
+    min-height: 100vh;
 }
 
 .qr-container {
@@ -14,9 +18,6 @@ body {
     height: 520px;
     background-color: #fff;
     border-radius: 20px;
-    margin-top: 7rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .qr-code-image {
